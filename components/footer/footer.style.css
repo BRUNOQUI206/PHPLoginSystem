@@ -1,0 +1,27 @@
+/* Estilos do Footer */
+.site-footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ffcc00;
+}

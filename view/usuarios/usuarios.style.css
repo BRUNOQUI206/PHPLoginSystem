@@ -1,0 +1,33 @@
+/* Estilos para a página de usuários */
+.users-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.users-table th, .users-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.users-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.users-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.users-table tr:hover {
+    background-color: #ddd;
+}
